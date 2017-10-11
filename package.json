@@ -1,0 +1,14 @@
+{
+    "name": "Social Network Graph",
+    "version": "1.0.0",
+    "author": "Arthur Graus",
+    "description": "This custom visual implements a Social Network Graph based on D3 version 4 force layout simulation.",
+    "supportUrl": "http://www.arthurgraus.nl/contact.html",
+    "devDependencies": {
+        "powerbi-visuals-utils-dataviewutils": "^1.2.0",
+        "d3": "^4.10.0"
+    },
+    "dependencies": {
+        "@types/d3": "^4.10.0"
+    }
+}

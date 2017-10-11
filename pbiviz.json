@@ -1,0 +1,28 @@
+{
+    "visual": {
+        "name": "socialNetworkGraph",
+        "displayName": "Social Network Graph",
+        "guid": "socialNetworkGraph99E9F31DDFD7429BACA50118466E4D11",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "",
+        "supportUrl": "http://www.arthurgraus.nl/contact.html",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "1.6.0",
+    "author": {
+        "name": "Arthur Graus",
+        "email": "info@arthurgraus.nl"
+    },
+    "assets": {
+        "icon": "assets/peopleGraph2.png"
+    },
+    "externalJS": [
+        "node_modules/powerbi-visuals-utils-dataviewutils/lib/index.js",
+        "node_modules/d3/build/d3.min.js"
+    ],
+    "style": "style/peopleGraph.less",
+    "capabilities": "capabilities.json",
+    "dependencies": "dependencies.json",
+    "stringResources": []
+}
